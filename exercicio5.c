@@ -9,8 +9,7 @@ O programa deve terminar a leitura se o usuário digitar zero.*/
 
 
 int main(){
-    int i = 0, input, somaPar = 0;
-    float mediaPar = 0;
+    int i = 0, input, somaPar = 0,  mediaPar = 0;
 
     do{
         printf("Digite um numero e use 0 para encerrar o programa: ");
@@ -21,6 +20,6 @@ int main(){
         }
     }while (input!=0);
     mediaPar = somaPar/i;
-    printf("Media: %.2f", mediaPar);
+    printf("Media: %.d", mediaPar);
     return 0;
 }
